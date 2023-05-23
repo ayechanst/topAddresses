@@ -10,7 +10,7 @@ for item in data:
     print(item['address'])
     category = input('enter the contract category:\n')
     item['category'] = category
-    name = input('Enter the contract name (or press Enter to skip): ')
+    name = input('Enter the contract name (or press Enter to skip):\n ')
     if name:
         item['name'] = name
     newData.append(item)
