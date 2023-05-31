@@ -20,7 +20,7 @@ addresses = addresses[start_index:]
 
 print(len(addresses))
 
-driver = driver = webdriver.Chrome("/home/ben/Downloads/chromedriver")
+driver = webdriver.Chrome("/home/ben/Downloads/chromedriver")
 
 wait = WebDriverWait(driver, 10)
 
