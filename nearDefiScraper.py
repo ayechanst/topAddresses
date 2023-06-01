@@ -17,7 +17,7 @@ driver.get("https://awesomenear.com/categories/defi")
 
 time.sleep(5)
 
-near_button = driver.find_elements("xpath", '//div[@class="tab-item"]/a')[0]
+near_button = driver.find_elements("xpath", '//div[@class="tab-item"]/a')[1]
 
 near_button.click()
 
@@ -66,6 +66,8 @@ for i in range(48):
     if len(contractList) == 25:
         break
 
+    
+ 
     driver.close()
     driver.switch_to.window(driver.window_handles[0])
 

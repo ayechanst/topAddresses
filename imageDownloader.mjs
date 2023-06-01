@@ -22,7 +22,7 @@
 // downloadImages();
 import fs from 'fs';
 import fetch from 'node-fetch';
-import jsonArray from './mainnetData.json' assert { type: 'json' };
+import jsonArray from './nearcontracts.json' assert { type: 'json' };
 import path from 'path';
 
 async function downloadImages() {
